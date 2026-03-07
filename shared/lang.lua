@@ -1,3 +1,5 @@
+Lang = {}
+
 Lang["en-EN"] = {
     player_join = "%s Joined",
     new_player_join = "%s Joined as a new player",
@@ -239,4 +241,5 @@ Lang["ja-JP"] = {
     data_sent_to_wh = "情報がWebhookに送信されました",
     info_request = "%s が %s のチェックをリクエストしました",
     requested_data = "識別子: %s \n グループ: %s \n ジョブ: %s \n RP名: %s"
+
 }
