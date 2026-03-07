@@ -18,7 +18,34 @@ Lang["en-EN"] = {
     player_quit_desc = "Identifier: %s \n Server ID: %s",
     setjob_desc = "New: % \n Old: %s",
 
-    logs_started = "Akari's Log System started | Version: %s",
+    logs_started = "Akari's Log System started | Version: v1",
+
+    no_perm = "No permission",
+
+    data_sent_to_wh = "Information sent to webhook",
+    info_request = "%s requested a check for %s",
+    requested_data = "Identifier: %s \n Group: %s \n Job: %s \n RP Name: %s"
+}
+
+Lang["root-AQ"] = {
+    player_join = "%s Joined",
+    new_player_join = "%s Joined as a new player",
+    player_quit = "%s Disconnected",
+    setjob = "%s player's job got changed",
+    resource_start = "%s resource got started",
+    resource_stop = "%s resource stopped",
+    resource_restart = "%s resource got restarted",
+    cheat_key_pressed = "%s Pressed a possible cheat key!",
+    kill = "%s killed %s",
+    death = "%s died",
+    item_add = "%s got %s amount of %s",
+    item_remove = "removed %s amount of %s from %s",
+
+    player_join_desc = "Identifier: %s \n Server ID: %s",
+    player_quit_desc = "Identifier: %s \n Server ID: %s",
+    setjob_desc = "New: % \n Old: %s",
+
+    logs_started = "Akari's Log System started | Version: v1",
 
     no_perm = "No permission",
 
@@ -45,7 +72,7 @@ Lang["de-DE"] = {
     player_quit_desc = "Identifier: %s \n Server ID: %s",
     setjob_desc = "Neu: %s \n Alt: %s",
 
-    logs_started = "Akari Log-System gestartet | Version: %s",
+    logs_started = "Akari Log-System gestartet | Version: v1",
 
     no_perm = "Keine Berechtigung",
 
@@ -72,7 +99,7 @@ Lang["es-ES"] = {
     player_quit_desc = "Identificador: %s \n ID del servidor: %s",
     setjob_desc = "Nuevo: %s \n Antiguo: %s",
 
-    logs_started = "Sistema de logs Akari iniciado | Versión: %s",
+    logs_started = "Sistema de logs Akari iniciado | Versión: v1",
 
     no_perm = "Sin permisos",
 
@@ -99,7 +126,7 @@ Lang["pt-BR"] = {
     player_quit_desc = "Identificador: %s \n ID do servidor: %s",
     setjob_desc = "Novo: %s \n Antigo: %s",
 
-    logs_started = "Sistema de logs Akari iniciado | Versão: %s",
+    logs_started = "Sistema de logs Akari iniciado | Versão: v1",
 
     no_perm = "Sem permissão",
 
@@ -126,7 +153,7 @@ Lang["it-IT"] = {
     player_quit_desc = "Identificatore: %s \n Server ID: %s",
     setjob_desc = "Nuovo: %s \n Vecchio: %s",
 
-    logs_started = "Sistema di log Akari avviato | Versione: %s",
+    logs_started = "Sistema di log Akari avviato | Versione: v1",
 
     no_perm = "Nessun permesso",
 
@@ -153,7 +180,7 @@ Lang["ru-RU"] = {
     player_quit_desc = "Идентификатор: %s \n ID сервера: %s",
     setjob_desc = "Новый: %s \n Старый: %s",
 
-    logs_started = "Система логов Akari запущена | Версия: %s",
+    logs_started = "Система логов Akari запущена | Версия: v1",
 
     no_perm = "Нет прав",
 
@@ -180,7 +207,7 @@ Lang["zh-CN"] = {
     player_quit_desc = "标识符: %s \n 服务器ID: %s",
     setjob_desc = "新: %s \n 旧: %s",
 
-    logs_started = "Akari 日志系统已启动 | 版本: %s",
+    logs_started = "Akari 日志系统已启动 | 版本: v1",
 
     no_perm = "没有权限",
 
@@ -207,7 +234,7 @@ Lang["hu-HU"] = {
     player_quit_desc = "Azonosító: %s \n Szerver ID: %s",
     setjob_desc = "Új: %s \n Régi: %s",
 
-    logs_started = "Akari Log Rendszer elindult | Verzió: %s",
+    logs_started = "Akari Log Rendszer elindult | Verzió: v1",
 
     no_perm = "Nincs jogosultság",
 
@@ -234,12 +261,11 @@ Lang["ja-JP"] = {
     player_quit_desc = "識別子: %s \n サーバーID: %s",
     setjob_desc = "新しい: %s \n 古い: %s",
 
-    logs_started = "Akariログシステムが開始されました | バージョン: %s",
+    logs_started = "Akariログシステムが開始されました | バージョン: v1",
 
     no_perm = "権限がありません",
 
     data_sent_to_wh = "情報がWebhookに送信されました",
     info_request = "%s が %s のチェックをリクエストしました",
     requested_data = "識別子: %s \n グループ: %s \n ジョブ: %s \n RP名: %s"
-
 }
