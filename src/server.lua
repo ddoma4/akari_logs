@@ -56,7 +56,7 @@ AddEventHandler("onResourceStart", function(res)
     if res ~= resource then return end
 
     if Config.LogToConsole then
-        PrettyPrint(string.format(Lang[Config.TxLang].logs_started, GetConvar("akari_logs", "v1")))
+        PrettyPrint(Lang[Config.TxLang].logs_started)
     end
 end)
 
@@ -296,4 +296,5 @@ end)
 
 RegisterNetEvent("akari_logs:createConsoleLog", function(args)
     PrettyPrint(args)
+
 end)
