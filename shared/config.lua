@@ -21,7 +21,7 @@ Config = {
     Logs = {
         join = true, -- Logs player joins
         quit = true, -- Logs player quits
-        is_new = true,
+        is_new = true, -- Logs if a player is new on the server
         setjob = true, -- Logs player's job changes
         resource_start = true, -- Logs started resources
         resource_stop = true, -- Logs stopped resources
@@ -61,4 +61,5 @@ Config = {
         105, -- Numpad 9
         200, -- PAUSE / ESC
     }
+
 }
