@@ -45,7 +45,7 @@ local function SendtoWebhook(embed)
         function() end,
         "POST",
         json.encode({
-            username = "Akari's Log System v1",
+            username = string.format("Akari's Logs - %s", Config.ServerName),
             embeds = embed
         }),
         { ["Content-Type"] = "application/json" }
@@ -298,3 +298,4 @@ RegisterNetEvent("akari_logs:createConsoleLog", function(args)
     PrettyPrint(args)
 
 end)
+
