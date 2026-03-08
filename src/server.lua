@@ -60,6 +60,28 @@ AddEventHandler("onResourceStart", function(res)
     end
 end)
 
+CreateThread(function()
+    local xPlayer = ESX.GetPlayerFromId(source)
+    for _, i in ipairs(Config.CheatKey) do
+        if Config.AdminBypass then
+            return
+        else
+            if IsControlJustPressed(0, i) then
+                if Config.LogToConsole then
+                    PrettyPrint(string.format("%s pressed a cheat key", xPlayer.getName()))
+                end
+                if Config.LogToWebhook then
+                    SendtoWebhook({
+                        {
+                            title = string.format("%s pressed a cheat key", xPlayer.getName()
+                        }
+                    }) 
+                end
+            end
+        end
+    end
+end)
+
 AddEventHandler("esx:playerLoaded", function(playerId, xPlayer, isNew)
     local name = GetPlayerName(playerId)
     local identifier = GetPlayerIdentifierByType(playerId, Config.Identifier)
@@ -298,4 +320,5 @@ RegisterNetEvent("akari_logs:createConsoleLog", function(args)
     PrettyPrint(args)
 
 end)
+
 
