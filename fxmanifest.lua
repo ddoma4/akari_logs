@@ -3,6 +3,7 @@ game "gta5"
 
 author "Akari01"
 description "Log system for ESX servers!"
+version "1.1.2"
 
 shared_scripts {
     "@es_extended/imports.lua",
@@ -20,4 +21,5 @@ client_scripts {
 dependencies {
     "es_extended",
     "esx_notify"
+
 }
