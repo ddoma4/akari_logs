@@ -1,4 +1,4 @@
-SetConvar("akari_logs", "v1")
+SetConvar("akari_logs", "v1.1.2")
 
 local resource = GetCurrentResourceName()
 
@@ -320,5 +320,6 @@ RegisterNetEvent("akari_logs:createConsoleLog", function(args)
     PrettyPrint(args)
 
 end)
+
 
 
